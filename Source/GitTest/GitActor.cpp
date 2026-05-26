@@ -21,6 +21,6 @@ void AGitActor::BeginPlay()
 void AGitActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	UE_LOG(LogTemp, Warning, TEXT("BBB"));
 }
 
