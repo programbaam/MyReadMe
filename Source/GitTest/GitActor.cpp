@@ -14,7 +14,7 @@ AGitActor::AGitActor()
 void AGitActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("Test"));
+	UE_LOG(LogTemp, Warning, TEXT("Test123"));
 }
 
 // Called every frame
